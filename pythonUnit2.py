@@ -63,7 +63,7 @@ while True:
                     
                     precio1 = producto_pasillo[producto]
                     
-                    carrito_total.append({"nombre":producto, "precio":precio1})
+                    menu.append({"nombre": producto, "precio": precio1})
                     
                     carrito_total += precio1
                     
@@ -87,3 +87,7 @@ print("-" * 30)
 print(f"TOTAL A PAGAR:   ${carrito_total}")
 print("="*30)
 print("¡Gracias por su compra!")
+
+
+
+## A ESTO LE FALTA MEJORAR
